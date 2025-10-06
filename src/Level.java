@@ -10,4 +10,15 @@ public class Level {
     {
         goalReached = true;
     }
+
+    public int getPoints()
+    {
+        return points;
+    }
+    public void setPoints(int p)
+    {
+        points = p;
+    }
+
+
 }
